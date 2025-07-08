@@ -337,6 +337,6 @@ button:hover {
     height: auto;
     padding: 10px;
     display: block;
-    margin: 0 auto;
+    margin-top: 40px;
   }
 }
