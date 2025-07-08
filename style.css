@@ -108,13 +108,14 @@ h2 {
 }
 
 .profile_image {
-  width: 250px;
-  height: fit-content;
+  width: 330px;
+  height: auto;
   vertical-align: middle;
   margin: 5px;
   padding-top: 60px;
   padding-right: 40px;
   padding-left: 40px;
+  box-sizing: border-box;
 }
 
 /* Skills */
@@ -327,4 +328,15 @@ button:hover {
   border-radius: 6px;
   text-align: center;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .profile_image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+  }
 }
